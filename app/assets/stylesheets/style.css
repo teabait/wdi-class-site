@@ -1,3 +1,11 @@
+/*GENERAL TEXT*/
+
+body {
+  color: red;
+  font-family: Helvetica;
+}
+
+/*SECTIONS*/
 #landing {
   background: url(general-assembly-realer.jpg);
   background-size: cover;
@@ -14,8 +22,9 @@
 #ga {
   background-color: rgba(0, 0, 0, .8);
 }
-body {
-  color: red;
+
+section {
+  margin-top: 50px;
 }
 
 #student-page {
@@ -25,6 +34,15 @@ body {
 
 }
 
+/*HEADERS*/
+
+h1 {
+  background-color: black;
+  width: 300px;
+  height: 100px;
+}
+
+/*NAV*/
 nav {
   background-color: black;
   z-index: 100;
@@ -33,6 +51,14 @@ nav {
   height: 50px;
 }
 
-section {
-  margin-top: 50px;
+
+nav li {
+  float: right;
+  display: inline;
+  margin: 1em 3em;
+}
+
+nav li:hover {
+  cursor: pointer;
+  color: yellow;
 }
