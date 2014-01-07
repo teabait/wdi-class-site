@@ -2,10 +2,9 @@ class StudentsController < ApplicationController
 
   def index
     @students = Student.all
-    @student = Student.find_by(name: params[:name])
-    |format|
+    respond_to |format|
     format.html
-    format.json{ render json: @student }
+    format.json{ render json: @student}
   end
 
 end
