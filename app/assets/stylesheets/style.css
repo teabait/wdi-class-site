@@ -1,8 +1,19 @@
 #landing {
-  background: url(https://dl-web.dropbox.com/get/ga-headshots-bw/general-assembly-realer.jpg?w=AABE4WFenOTd87pvMy5bhYLYB4Oonx8QX35L7sBSM2SaKg);
+  background: url(general-assembly-realer.jpg);
   background-size: cover;
 }
 
+#about {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+#students {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+#ga {
+  background-color: rgba(0, 0, 0, .8);
+}
 body {
   color: red;
 }
