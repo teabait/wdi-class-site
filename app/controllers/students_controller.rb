@@ -1,10 +1,14 @@
 class StudentsController < ApplicationController
 
   def index
-    @students = Student.all
-    respond_to |format|
-    format.html
-    format.json{ render json: @student}
+
+  end
+  def show
+    @students = Student.find(params[:id])
+    respond_to do |format|
+      format.html {render nothing: true}
+      format.json { render json: @students}
+    end
   end
 
 end
