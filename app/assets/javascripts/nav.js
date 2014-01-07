@@ -24,6 +24,13 @@ function changeStudent(callback){
 }
 
 function studentCall(student){
-  students = student;
-  console.log(students)
+  var studentInfo = student;
+
+  var list = $("#student-info");
+  var github= $("<li>").text(student.github);
+  var email = $("<li>").text(student.email);
+
+  list.empty().append(github).append(email);
+
+
 }
