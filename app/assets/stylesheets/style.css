@@ -1,5 +1,11 @@
 /*GENERAL TEXT*/
 
+.get_student {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  display: inline;
+}
+
 .shout {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
@@ -7,7 +13,7 @@
 
 /*SECTIONS*/
 #landing {
-  background: url(general-assembly-realer.jpg);
+  background: url(general-assembly-real2.jpg);
   background-size: cover;
 }
 
