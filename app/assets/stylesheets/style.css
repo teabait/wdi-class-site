@@ -177,3 +177,16 @@ nav li:hover {
   border-radius: 50%;
   float: left;
 }
+
+/*STUDENT FORM*/
+#add-student{
+  margin-top: 5em;
+  width: 10em;
+  height: 16em; 
+}
+.hidden{
+  display:none;
+}
+#warning{
+  margin-top: 3em;
+}

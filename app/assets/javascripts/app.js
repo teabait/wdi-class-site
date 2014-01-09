@@ -35,3 +35,23 @@ function studentCall(student){
 
 
 }
+
+function addStudent(){
+
+  var check = prompt("Are you a student? Prove it! What's the magic word?");
+  var formDiv = $("#add-student");
+  if(check == "wdi_array"){
+    formDiv.removeClass("hidden");
+  }else{
+    $("#warning").removeClass("hidden");
+    $("#retry").removeClass("hidden");
+    $("#giveup").removeClass("hidden");
+
+    $("#retry").click(function(){
+      window.location.reload();
+    });
+    $("#giveup").click(function(){
+      window.location.href = window.location.origin;
+    })
+  }
+}
