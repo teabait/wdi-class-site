@@ -8,11 +8,22 @@
 
 .get_student:hover {
   cursor: pointer;
+  color: gray;
 }
 
 .shout {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
+}
+
+.name {
+  margin-top: 3em;
+  text-align: left;
+}
+.blurb {
+  margin-top: 1em;
+  font-size: 1.2em;
+  text-align: left;
 }
 
 p {
@@ -23,6 +34,13 @@ p {
   line-height: 1.3em;
 }
 
+.contact {
+  display: inline-block;
+  background-color: pink;
+  padding: 1em;
+  margin: 2em .2em 0;
+  float: left;
+}
 
 /*SECTIONS*/
 
@@ -57,17 +75,16 @@ section {
 }
 
 #student-page {
-  width: 60%;
+  width: 70%;
   height: 500px;
-  border: 2px solid black;
-  margin: 0 auto;
+  margin: 3em auto;
 
 }
 
 .trio {
   width: 25%;
   height: 70%;
-  min-height: 500px;
+  min-height: 520px;
   border-radius: 50px;
   background-color: white;
   margin-top: 1em;
@@ -108,6 +125,7 @@ h3 {
   text-align: center;
   font-size: 4em;
   padding-top: 1em;
+  margin-bottom: .5em;
 }
 
 h4 {
@@ -177,5 +195,7 @@ nav li:hover {
 
 .photo {
   border-radius: 50%;
+  width: 300px;
   float: left;
+  padding: 0 30px;
 }
