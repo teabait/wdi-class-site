@@ -11,4 +11,7 @@
  *= require_self
  *= require_tree .
  *= require onepage-scroll
+ *= require skeleton
+ *= require layout
+ *= require base
  */
