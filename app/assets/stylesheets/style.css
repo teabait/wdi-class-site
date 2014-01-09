@@ -199,3 +199,16 @@ nav li:hover {
   float: left;
   padding: 0 30px;
 }
+
+/*STUDENT FORM*/
+#add-student{
+  margin-top: 5em;
+  width: 10em;
+  height: 16em; 
+}
+.hidden{
+  display:none;
+}
+#warning{
+  margin-top: 3em;
+}
