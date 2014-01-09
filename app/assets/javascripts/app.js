@@ -29,8 +29,9 @@ function studentCall(student){
   var list = $("#student-info");
   var github= $("<li>").html($("<a>").text("github").attr("href", "http://github.com/" + student.github));
   var email = $("<li>").html($("<a>").text("email").attr("href", "mailto:" + student.email));
-
-  list.empty().append(github).append(email);
+  var website = $("<li>").html($("<a>").text("website").attr("href", student.website));
+  var picture = $("<img>").attr("src", "/assets/" + student.picture);
+  list.empty().append(github).append(email).append(website).append(picture);
 
 
 }

@@ -6,6 +6,10 @@
   display: inline;
 }
 
+.get_student:hover {
+  cursor: pointer;
+}
+
 .shout {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
@@ -32,11 +36,11 @@ p {
 }
 
 #students {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: goldenrod;
 }
 
 #ga {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: firebrick;
 }
 
 .trio-case {
