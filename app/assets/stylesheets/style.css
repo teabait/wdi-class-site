@@ -37,6 +37,7 @@ p {
 
 #students {
   background-color: goldenrod;
+  text-align: center;
 }
 
 #ga {
@@ -55,9 +56,10 @@ section {
 }
 
 #student-page {
-  width: 500px;
+  width: 60%;
   height: 500px;
   border: 2px solid black;
+  margin: 0 auto;
 
 }
 
@@ -74,6 +76,7 @@ section {
   width: 60%;
   margin: 3em auto;
 }
+
 /*HEADERS*/
 
 .banner h1 {
@@ -166,4 +169,11 @@ nav li:hover {
     height: 0;
     border-top: 200px solid rgba(0, 0, 0, 1);
     border-left: 300px solid transparent;
+}
+
+/*IMAGES*/
+
+.photo {
+  border-radius: 50%;
+  float: left;
 }
