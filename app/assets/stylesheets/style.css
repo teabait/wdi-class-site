@@ -11,7 +11,17 @@
   font-size: 1.3em;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, .7);
+  font-size: 1.5em;
+  margin: 1em;
+  line-height: 1.3em;
+}
+
+
 /*SECTIONS*/
+
 #landing {
   background: url(general-assembly-real2.jpg);
   background-size: cover;
@@ -87,7 +97,7 @@ h3 {
   font-family: 'Roboto Slab', serif;
   color: white;
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
   padding-top: 1em;
 }
 
@@ -95,7 +105,7 @@ h4 {
   font-family: 'Roboto Slab', serif;
   color: firebrick;
   padding: 1em;
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 /*NAV*/
@@ -114,6 +124,10 @@ nav ul li {
   margin: 1em 2em;
   font-family: 'Roboto Slab', serif;
   color: white;
+}
+
+nav ul li:last-child {
+  margin-right: 4em;
 }
 
 nav li:hover {
