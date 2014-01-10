@@ -117,7 +117,7 @@ section {
 }
 
 .most {
-  height: 80%;
+  height: 82%;
 }
 
 .tiny {
@@ -137,11 +137,11 @@ section {
 }
 
 #footer {
-  padding: 1.3em;
+  padding-top: 1.3em;
   bottom: 0;
   clear: both;
   background-color: white;
-  height: 20%;
+  height: 18%;
   color: white;
 }
 /*HEADERS*/
