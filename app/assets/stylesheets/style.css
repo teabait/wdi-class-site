@@ -65,7 +65,7 @@ a:hover {
 /*SECTIONS*/
 
 #landing {
-  background: url(general-assembly-real2.jpg);
+  background: url("general-assembly-real2.jpg");
   background-size: cover;
 }
 
