@@ -281,10 +281,10 @@ nav li:hover {
 /*IMAGES*/
 
 .photo {
-  border-radius: 50%;
+  border-radius: 100%;
   width: 300px;
   float: left;
-  padding-right: 30px;
+/*  padding-right: 30px;*/
 }
 
 /*STUDENT FORM*/
