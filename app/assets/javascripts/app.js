@@ -1,15 +1,15 @@
 
-function navigateTo(){
-  $("#toAbout").click(function(){
-    $(".main").moveTo(2);
-  });
-  $("#toStudents").click(function(){
-    $(".main").moveTo(3);
-  });
-  $("#toGa").click(function(){
-    $(".main").moveTo(4);
-  });
-}
+// function navigateTo(){
+//   $("#toAbout").click(function(){
+//     $(".main").moveTo(2);
+//   });
+//   $("#toStudents").click(function(){
+//     $(".main").moveTo(3);
+//   });
+//   $("#toGa").click(function(){
+//     $(".main").moveTo(4);
+//   });
+// }
 
 function changeStudent(callback){
   $(".get_student").click(function(){
